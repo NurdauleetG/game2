@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Document</title>
+	<style type="text/css">
+		
+		.box{
+			height: 500px;
+			width: 1000px;
+			margin-left: auto;
+			margin-right: auto;
+			border-radius: 100px;
+			border: 3px solid blue;
+			margin-top: px;
+		}
+		.box1{
+			height: 500px;
+			width: 1000px;
+			margin-left: auto;
+			margin-right: auto;
+			border-radius: 100px;
+			border: 3px solid blue;
+			margin-top: px;
+			display: none;
+		}
+		.box2{
+			height: 500px;
+			width: 1000px;
+			margin-left: auto;
+			margin-right: auto;
+			border-radius: 100px;
+			border: 3px solid blue;
+			margin-top:px;
+			display: none;
+		}
+		.b1{
+			display:;display: none;height: 700px;background-image: url(94.jpg);background-size: 100%100%;
+		}
+		.b2{
+			display:;display: none;height: 700px;background-image: url(94.jpg);background-size: 100%100%;
+		}
+		.b{
+			height: 700px;background-image: url(94.jpg);background-size: 100%100%;display: grid;
+		}
+	</style>
+</head>
+<body>
+
+<div class="b">
+<div class="box">
+	<h1 class="t" style="text-align: center; margin-top:;">Menin atym kim?</h1>
+	<div style="margin-top:200px;">
+		<button class="btn1" style="margin-left: 380px; margin-top: 0px; border-radius: 10px; color: orange;">Nurdaulet</button>
+		<button class="btn2" style="border-radius: 10px; color: orange;">Asylkhan</button>
+		<button class="btn3" style="border-radius: 10px; color: orange;">Olzhas</button>
+	</div>
+</div>
+</div>
+<div class="b1">
+<div class="box1">
+	<h1 class="t1" style="text-align: center; margin-top: px"> menin familiyam kalai ?</h1>
+	<div style="margin-top:200px;">
+		<button class="btn11" style="margin-left: 380px; margin-top: 0px; border-radius: 10px; color: orange;">Garifulla</button>
+		<button class="btn21" style="border-radius: 10px; color: orange;">asasas</button>
+		<button class="btn31" style="border-radius: 10px; color: orange;">rtrtrt</button>
+	</div>
+</div>
+</div>
+<div class="b2">
+<div class="box2">
+	<h1 class="t2" style="text-align: center; margin-top: px">Menin jasym ?</h1>
+	<div style="margin-top:200px;">
+		<button class="btn12" style="margin-left: 380px; margin-top: 0px; border-radius: 10px; color: orange;">13</button>
+		<button class="btn22" style="border-radius: 10px; color: orange;">14</button>
+		<button class="btn32" style="border-radius: 10px; color: orange;">15</button>
+	</div>
+</div>
+</div>
+<script type="text/javascript">
+	document.querySelector(".btn1").onclick=function() {
+		alert("ura, durys")
+		document.querySelector(".t").style.display="none"
+		document.querySelector(".btn1").style.display="none"
+		document.querySelector(".btn2").style.display="none"
+		document.querySelector(".btn3").style.display="none"
+		document.querySelector(".b").style.display="none"
+		document.querySelector(".b1").style.display="block"
+		document.querySelector(".box1").style.display="block"
+	}
+	document.querySelector(".btn2").onclick=function() {
+		alert("durys emes, kaitadan kara")
+	}
+	document.querySelector(".btn3").onclick=function() {
+		alert("durys emes, kaitadan kara")
+	}
+document.querySelector(".btn11").onclick=function() {
+		alert("ura, durys")
+		document.querySelector(".box1").style.display="none"
+		document.querySelector(".b1").style.display="none"
+		document.querySelector(".b2").style.display="block"
+		document.querySelector(".box2").style.display="block"
+	}
+	document.querySelector(".btn21").onclick=function() {
+		alert("durys emes, kaitadan kara")
+	}
+	document.querySelector(".btn31").onclick=function() {
+		alert("durys emes, kaitadan kara")
+	}
+	document.querySelector(".btn32").onclick=function() {
+		alert("ura, durys")
+		document.querySelector(".box2").style.display="none"
+		document.querySelector(".b2").style.display="none"
+	}		
+	document.querySelector(".btn12").onclick=function() {
+		alert("durys emes, kaitadan kara")
+	}
+	document.querySelector(".btn22").onclick=function() {
+		alert("durys emes, kaitadan kara")
+	}
+</script>
+</body>
+</html>
